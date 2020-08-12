@@ -15,6 +15,14 @@ public class ArrayTableAndSum {
             sum+=olaGrades[counter];
         System.out.println(sum);
 
+        // enhanced for loop
+
+        for(int olaGrade :olaGrades) sum+=olaGrade;  // here, the value of sum has been updated again. Essentially doubled!!
+        System.out.println("Sum equals " + sum + " in the enhanced for loop");
+
+
+
+
     }
 
 }

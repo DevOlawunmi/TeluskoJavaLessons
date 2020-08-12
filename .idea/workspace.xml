@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76d5cc5-ec31-4b2a-afd7-e3dcb8203b0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/TernaryStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/CompoundInterestForLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TernaryStatements">
+  <component name="RunManager" selected="Application.CompoundInterestForLoop">
+    <configuration name="CompoundInterestForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.CompoundInterestForLoop" />
+      <module name="TeluskoJavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IfElseExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.IfElseExamples" />
       <module name="TeluskoJavaLessons" />
@@ -64,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompoundInterestForLoop" />
         <item itemvalue="Application.TernaryStatements" />
         <item itemvalue="Application.IfElseExamples" />
       </list>
@@ -99,37 +111,49 @@
       <option name="project" value="LOCAL" />
       <updated>1597115784683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ternary Statement">
+      <created>1597117689317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597117689317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="If else statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="If else statement" />
+    <MESSAGE value="Ternary Statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ternary Statement" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1597115784078">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1597117688814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597115784078" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597117279463">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597117688814" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597192601174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597117279463" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597117279463">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597192601174" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597192601174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597117279463" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597117279463">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597192601174" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597192601174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597117279463" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597117279463">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597192601174" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597192601174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597117279463" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597115809958">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597192601174" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597117691509">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597115809958" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597117691509" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1597190982149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597190982149" />
   </component>
 </project>

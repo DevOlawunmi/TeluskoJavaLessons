@@ -4,7 +4,7 @@ public class PassingMethodsInArrays {
     public static void main(String[] args) {
         int[]bucky = {23, 14, 18, 22, 34};
         change(bucky); // we've called the change method on bucky therefore all the elements have been increased by 1
-        //below, we print out all the elements 
+        //below, we print out all the elements
         for (int y:bucky)
             System.out.println(y);
 

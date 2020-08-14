@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76d5cc5-ec31-4b2a-afd7-e3dcb8203b0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter1/MultiDimensionalArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/PassingMethodsInArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/PassingMethodsInArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PassingMethodsInArrays">
+  <component name="RunManager" selected="Application.MultiDimensionalArrays">
     <configuration name="ArrayTableAndSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.ArrayTableAndSum" />
       <module name="TeluskoJavaLessons" />
@@ -47,8 +47,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompoundInterestForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.CompoundInterestForLoop" />
+    <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.MultiDimensionalArrays" />
       <module name="TeluskoJavaLessons" />
       <extension name="coverage">
         <pattern>
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiDimensionalArrays" />
         <item itemvalue="Application.PassingMethodsInArrays" />
         <item itemvalue="Application.RollADiceExample2" />
         <item itemvalue="Application.RollADiceExample" />
         <item itemvalue="Application.ArrayTableAndSum" />
-        <item itemvalue="Application.CompoundInterestForLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597373337626</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Passing methods in Arrays example 1">
+      <created>1597373902922</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597373902922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,30 +217,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Passing methods in Arrays example 1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1597373336945">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1597373902280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597373336945" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597290821301">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597373902280" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597375166247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597290821301" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597290821301">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597375166247" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597375166246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597290821301" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597290821301">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597375166246" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597375166246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597290821301" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597290821301">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597375166246" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597375166246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597290821301" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597373340560">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597375166246" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597373905342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597373340560" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597373905342" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1597372274297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

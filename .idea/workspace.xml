@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76d5cc5-ec31-4b2a-afd7-e3dcb8203b0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter2/VariableLengthArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/BuildingATimeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.VariableLengthArguments">
+  <component name="RunManager" selected="Application.BuildingATimeClass">
+    <configuration name="BuildingATimeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.BuildingATimeClass" />
+      <module name="TeluskoJavaLessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.MultiDimensionalArrays" />
       <module name="TeluskoJavaLessons" />
@@ -49,19 +63,6 @@
     </configuration>
     <configuration name="PassingMethodsInArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.PassingMethodsInArrays" />
-      <module name="TeluskoJavaLessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RollADiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.RollADiceExample" />
       <module name="TeluskoJavaLessons" />
       <extension name="coverage">
         <pattern>
@@ -101,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildingATimeClass" />
         <item itemvalue="Application.VariableLengthArguments" />
         <item itemvalue="Application.MultiDimensionalArrays" />
         <item itemvalue="Application.PassingMethodsInArrays" />
         <item itemvalue="Application.RollADiceExample2" />
-        <item itemvalue="Application.RollADiceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597375544976</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&#10;Variable Length Arguments in methods">
+      <created>1597376833666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597376833666</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,36 +230,37 @@
     <MESSAGE value="Roll a dice and count the frequency of each number" />
     <MESSAGE value="Passing methods in Arrays example 1" />
     <MESSAGE value="Multi dimensional arrays table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi dimensional arrays table" />
+    <MESSAGE value="&#10;Variable Length Arguments in methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Variable Length Arguments in methods" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1597375544405">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1597376832971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597375544405" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597376229659">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597376832971" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597460417150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597376229659" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597376229658">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597460417150" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597460417150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597376229658" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597376229658">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597460417150" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597460417150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597376229658" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597376229658">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597460417150" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597460417150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597376229658" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597375547642">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597460417150" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597376836357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597375547642" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1597372274297">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597376836357" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1597457163281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597372274297" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597457163281" />
   </component>
 </project>

@@ -5,6 +5,7 @@ public class BuildingATimeClass {
         Time timeObject = new Time();
 
         timeObject.setTime(18,22,17);
+        System.out.println(timeObject.toMilitary());
         System.out.println(timeObject.toString());
 
     }

@@ -1,6 +1,9 @@
 package oop;
 //fields are class level variables
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MySweetRunner {
     public static void main(String[] args) {
 User user1 = new User();
@@ -14,7 +17,17 @@ User user1 = new User();
 
         user1.setFirstName("Dolly");
         user1.setLastName("Parton");
-        System.out.println(user1.getFirstName());
-        System.out.println(user1.getFullName());
+
+        User user2 = new User();
+        user2.setFirstName("Brad");
+        user2.setLastName("Paisley");
+      //  System.out.println(user1.getFirstName());
+      //  System.out.println(user1.getFullName());
+        List<User>users = new ArrayList<User>();
+        users.add(user1);
+        users.add(user2);
+        System.out.println(users.get(1).getFullName());
+
     }
+
 }

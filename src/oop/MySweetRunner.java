@@ -23,7 +23,9 @@ User user1 = new User();
         user2.setLastName("Paisley");
       //  System.out.println(user1.getFirstName());
       //  System.out.println(user1.getFullName());
-        List<User>users = new ArrayList<User>();
+
+            //To create a custom type list. Create the users which we already did, 2, add them to list
+        List<User>users = new ArrayList<>();
         users.add(user1);
         users.add(user2);
         System.out.println(users.get(1).getFullName());

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76d5cc5-ec31-4b2a-afd7-e3dcb8203b0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/oop/CustomTypeListInLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/MySweetRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/MyUserRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MySweetRunner">
+  <component name="RunManager" selected="Application.CustomTypeListInLoop">
     <configuration name="BuildingATimeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter2.BuildingATimeClass" />
       <module name="TeluskoJavaLessons" />
@@ -73,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySweetRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.MySweetRunner" />
+    <configuration name="CustomTypeListInLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.CustomTypeListInLoop" />
       <module name="TeluskoJavaLessons" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableLengthArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.VariableLengthArguments" />
+    <configuration name="MyUserRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.MyUserRunner" />
       <module name="TeluskoJavaLessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MySweetRunner" />
+        <item itemvalue="Application.CustomTypeListInLoop" />
+        <item itemvalue="Application.MyUserRunner" />
         <item itemvalue="Application.CarsRunner" />
         <item itemvalue="Application.Constructors2" />
         <item itemvalue="Application.BuildingATimeClass" />
-        <item itemvalue="Application.VariableLengthArguments" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597890161573</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Custom type list">
+      <created>1597976726029</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597976726029</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,13 +303,14 @@
     <MESSAGE value="Classes and Objects" />
     <MESSAGE value="Getters and setters" />
     <MESSAGE value="Getters and setters2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getters and setters2" />
+    <MESSAGE value="Custom type list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom type list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1597890161130">
+    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1597976724967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597890161130" />
+    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597976724967" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597895391617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -317,10 +327,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597895391617" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597890165458">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1597976730503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597890165458" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597976730503" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1597976520417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

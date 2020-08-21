@@ -4,7 +4,7 @@ package oop;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MySweetRunner {
+public class MyUserRunner {
     public static void main(String[] args) {
 User user1 = new User();
 //user1.firstName = "Dolly";
